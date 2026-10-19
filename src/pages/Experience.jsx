@@ -5,7 +5,7 @@ export default function Experience() {
       <div className="wrap">
         <div className="hero" style={{ paddingBottom: 4 }}>
           <h1 className="page-title">Experience</h1>
-          <p className="dek">Work Experience, Research, Publications, Projects, Leadership, and Organizations.</p>
+          <p className="dek">Work Experience, Research, Publications and Awards, Projects, Leadership, and Organizations.</p>
         </div>
       </div>
 
@@ -18,7 +18,7 @@ export default function Experience() {
           <div className="project">
             <div className="project-head">
               <h3>Autonomy and Controls Engineering Intern</h3>
-              <span className="when">May 2026 &ndash; Present</span>
+              <span className="when">May 2026 &ndash; Nov. 2026</span>
             </div>
             <div className="org-line">Sea Machines Robotics</div>
             <p>Testing and evaluating radar sensor hardware to ensure reliable performance for autonomous vessel deployments, and building a streamlined data ingestion application to support live mission data capture for downstream analysis. Developing a vessel-agnostic dynamic model parameter estimation tool that achieves sub-5% average accuracy in simulation, supporting collision avoidance, fuel optimization, and trajectory planning. Applying digital signal filtering to improve state estimation fidelity, and validating results against motion model simulations with injected Markov-Gauss sensor noise and physical wave disturbances.</p>
@@ -31,7 +31,7 @@ export default function Experience() {
               <span className="when">May 2025 &ndash; Aug. 2025</span>
             </div>
             <div className="org-line">Amazon Robotics</div>
-            <p>Developed a modular Shadow Board fabrication, infrastructure, and procurement system to promote 5S principles, building a tooling database of over 150 discrete tools and reducing requisite labor by 94%. Conducted cycle time studies and developed SOPs for material line replenishment and warehouse re-organization, cutting part delivery time 81%, increasing discrete materials delivered per cycle 18x, and reducing station headcount 60%. Drove an 85% increase in technician task efficiency through Pareto analysis, and reduced manufacturing downtime and headcount by 22% through root cause analysis.</p>
+            <p>Developed a modular Shadow Board fabrication, infrastructure, and procurement system to promote 5S principles, building a tooling database of over 150 discrete tools and reducing requisite labor by 94%. Conducted cycle time studies and developed SOPs for material line replenishment and warehouse re-organization, cutting part delivery time 81%, increasing discrete materials delivered per cycle 18x, and reducing station headcount 60%. Drove an 85% increase in technician task efficiency through Pareto analysis, trained manufacturing technicians on best-practice SOPs, and identified bottlenecks via time cycle analysis to support labor and headcount rebalancing, cutting manufacturing downtime and reducing headcount by 22% through root cause analysis.</p>
             <div className="tags"><span>Process Engineering</span><span>SOP Writing</span><span>Six Sigma</span><span>5S</span></div>
           </div>
 
@@ -47,11 +47,11 @@ export default function Experience() {
           <div className="project">
             <div className="project-head">
               <h3>Project Lead and Research Assistant</h3>
-              <span className="when">Dec. 2025 &ndash; Present</span>
+              <span className="when">Dec. 2025 &ndash; Nov. 2026</span>
             </div>
             <div className="org-line">Institute for Robotics and Intelligent Machines, Georgia Tech</div>
-            <p>Leading a project deploying OpenCV to detect, locate, and manipulate objects with UR5 robot arms, and training an RF-DETR detection model to improve end-effector relative object manipulation and orientation estimation. Built a $50,000 cost-saving machine vision part inspection prototype to compete in the TE Connectivity AI Cup. Research accepted for publication in the IEOM 2026 World Congress in Irvine, California.</p>
-            <div className="tags"><span>OpenCV</span><span>RF-DETR</span><span>UR5</span><span>Project Management</span><span>Computer Vision</span><span>Model Training</span></div>
+            <p>Leading a project deploying GPT-4o and OpenCV to detect, locate, and manipulate objects with UR5 and Rainbow robot arms, and training an RF-DETR detection model to improve end-effector relative object manipulation and orientation estimation. Built a $50,000 cost-saving machine vision part inspection prototype to compete in the TE Connectivity AI Cup. Research published in the IEOM 2026 World Congress in Irvine, California, earning 1st Place, Best Undergraduate Research Paper Award Track Sponsored by Siemens.</p>
+            <div className="tags"><span>GPT-4o</span><span>OpenCV</span><span>RF-DETR</span><span>UR5</span><span>Project Management</span><span>Computer Vision</span><span>Model Training</span></div>
           </div>
 
           <div className="project">
@@ -60,7 +60,7 @@ export default function Experience() {
               <span className="when">Aug. 2024 &ndash; May 2025</span>
             </div>
             <div className="org-line">Exoskeleton &amp; Prosthetic Intelligent Controls (EPIC) Lab, Georgia Tech</div>
-            <p>Engineered hardware for a hip exoskeleton assistive device targeting stroke and cerebral palsy patient rehabilitation, analyzing biomechanics via VICON motion capture and simulation software to inform design decisions. Cut hardware housing fixture mass 55% and volume 32% while optimizing cable routing and component cooling, designing parts in SolidWorks and manufacturing them via 3D printing and pre-impregnated carbon fiber layering.</p>
+            <p>Engineered electrical junction box hardware for a hip exoskeleton assistive device targeting stroke and cerebral palsy patient rehabilitation, as part of the Mechatronics and Hardware Development sub-team, analyzing biomechanics via VICON motion capture and simulation software to inform design decisions. Cut hardware housing fixture mass 55% and volume 32% while optimizing cable routing and component cooling, designing parts in SolidWorks and manufacturing them via 3D printing and pre-impregnated carbon fiber layering.</p>
             <div className="tags"><span>SolidWorks</span><span>Motion Capture</span><span>Carbon Fiber Manufacturing</span><span>3D Printing</span></div>
           </div>
 
@@ -78,11 +78,12 @@ export default function Experience() {
       </div>
 
       <div className="section-band sticky">
-        <div className="wrap"><p className="label">Publications</p></div>
+        <div className="wrap"><p className="label">Publications and Awards</p></div>
       </div>
       <div className="wrap">
         <section style={{ paddingTop: 24 }}>
-          <p>R. Chavez, &ldquo;Edge AI Vision Model for Catheter Shaft Inspection,&rdquo; <em>IEOM 2026 World Congress</em>, Irvine, CA &mdash; accepted for publication, Oct. 2026.</p>
+          <p><strong>R. Chavez</strong>, &ldquo;Roboflow Detection Transformer for Manufacturing Defect Inspection with an application to Catheter Shaft Inspection,&rdquo; <em>IEOM 2026 World Congress</em>, Irvine, CA, Oct. 2026.<br /><strong>1st Place, Best Undergraduate Research Paper Award Track Sponsored by Siemens</strong></p>
+          <p><strong>Eagle Scout</strong>, Troop 1 Boxborough, Boy Scouts of America (May 2023)</p>
         </section>
       </div>
 
@@ -94,10 +95,10 @@ export default function Experience() {
 
           <div className="project">
             <div className="project-head">
-              <h3>Autonomous Chess-Playing Robot</h3>
+              <h3>RoBobby Fischer</h3>
               <span className="when">Aug. 2026 &ndash; Present</span>
             </div>
-            <div className="org-line">Personal Project</div>
+            <div className="org-line">Autonomous Chess-Playing Robot Mechatronics Project (Personal Project)</div>
             <p>Designing and building a chess-playing robot arm entirely from scratch, including custom 3D-printed linkages, hand-selected motors, sensors, and microcontrollers (Arduino, Raspberry Pi), and a computer vision pipeline that reads the board and piece positions in real time. Move selection runs through a Stockfish API, translated into physical arm motion through a control stack built from the ground up.</p>
             <div className="tags"><span>Computer Vision</span><span>Arduino</span><span>Raspberry Pi</span><span>3D Printing</span><span>Stockfish API</span></div>
             <div className="links"><a href="https://github.com/rafaelmchavez2023-sudo/Chess_Playing_Robot" target="_blank" rel="noopener">View repository &amp; build log</a></div>
@@ -124,6 +125,24 @@ export default function Experience() {
 
           <div className="project">
             <div className="project-head">
+              <h3>President</h3>
+              <span className="when">Sept. 2026 &ndash; Present</span>
+            </div>
+            <div className="org-line">Industrial Engineering and Operations Management Society GT Chapter</div>
+            <p>Founded and chartered the chapter as a Georgia Tech Registered Student Organization and a chapter of IEOM Society International, and drafted its constitution. Chair the executive board and guide the organization toward growth. Defined the chapter&rsquo;s mission to weight academic and industry paths equally, covering research opportunities, undergraduate research fairs, conference and paper-submission coaching, industry networking, and projects with industry partners.</p>
+          </div>
+
+          <div className="project">
+            <div className="project-head">
+              <h3>Chairman, Judicial Board &amp; Membership Well-Being</h3>
+              <span className="when">Nov. 2025 &ndash; Present</span>
+            </div>
+            <div className="org-line">Sigma Phi Epsilon</div>
+            <p>Elected chairman of the judicial board and liaison to the executive board within the organization. Led over 25 disciplinary hearings on topics ranging from finances to academics and behavioral matters, increased operational efficiency of judicial proceedings by standardizing hearing procedures and documentation, and improved mental health and risk management resources to increase membership involvement and well-being.</p>
+          </div>
+
+          <div className="project">
+            <div className="project-head">
               <h3>Director of Corporate Relations</h3>
               <span className="when">Jul. 2025 &ndash; May 2026</span>
             </div>
@@ -142,7 +161,7 @@ export default function Experience() {
 
           <div className="project">
             <div className="project-head">
-              <h3>TA Mentor &amp; Undergraduate Teaching Assistant</h3>
+              <h3>Undergraduate Teaching Assistant and Mentor</h3>
               <span className="when">Jan. 2024 &ndash; Dec. 2024</span>
             </div>
             <div className="org-line">GT Tutoring and Academic Support Center</div>
@@ -160,7 +179,7 @@ export default function Experience() {
 
           <div className="project">
             <div className="project-head">
-              <h3>Member | RoboJackets | GT Robotics Team</h3>
+              <h3>Member | RoboRacing | Georgia Tech Competitive Robotics Club</h3>
               <span className="when">Sept. 2026 &ndash; Present</span>
             </div>
           </div>
