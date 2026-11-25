@@ -83,6 +83,10 @@ export default function Experience() {
       <div className="wrap">
         <section style={{ paddingTop: 24 }}>
           <p><strong>R. Chavez</strong>, &ldquo;Roboflow Detection Transformer for Manufacturing Defect Inspection with an application to Catheter Shaft Inspection,&rdquo; <em>IEOM 2026 World Congress</em>, Irvine, CA, Oct. 2026.<br /><strong>1st Place, Best Undergraduate Research Paper Award Track Sponsored by Siemens</strong></p>
+          <figure className="award-photo">
+            <img src="/assets/ieom-2026-first-place-award.jpg" alt="Rafael Chavez receiving the First Place certificate in the Undergraduate Student Paper Competition sponsored by Siemens at the 2026 IEOM World Congress" loading="lazy" />
+            <figcaption>Receiving 1st Place in the Best Undergraduate Research Paper Award Track Sponsored by Siemens at the 2026 IEOM World Congress, Irvine, CA</figcaption>
+          </figure>
           <p><strong>Presidents Undergraduate Research Award 2026</strong>, Georgia Tech</p>
           <p><strong>Woodruff College of Mechanical Engineering Undergraduate Research Award 2026</strong></p>
           <p><strong>Georgia Tech Student Government Association Conference Research Award 2026</strong></p>
