@@ -242,7 +242,7 @@ p:last-child { margin-bottom: 0; }
   border-radius: 3px;
 }
 .award-photo { margin: 20px 0 24px; }
-.award-photo img { width: 100%; display: block; border: 1px solid var(--rule); border-radius: 3px; }
+.award-photo img { width: min(100%, 630px); height: auto; display: block; border: 1px solid var(--rule); border-radius: 3px; }
 .award-photo figcaption { margin-top: 6px; font-family: "IBM Plex Sans", sans-serif; font-size: 12.5px; color: var(--muted); }
 .media { margin-top: 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .media figure { margin: 0; }
