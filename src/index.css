@@ -288,6 +288,7 @@ p:last-child { margin-bottom: 0; }
 .entry ul { margin: 0; padding-left: 20px; }
 .entry li { margin-bottom: 6px; font-size: 16px; }
 
+.pdf-title { text-align: center; color: #000; font-family: "IBM Plex Sans", -apple-system, sans-serif; font-size: 26px; font-weight: 600; margin: 8px 0 18px; }
 .pdf-embed { margin-top: 32px; border: 1px solid var(--rule); }
 .pdf-embed iframe { display: block; width: 100%; height: 780px; border: none; }
 

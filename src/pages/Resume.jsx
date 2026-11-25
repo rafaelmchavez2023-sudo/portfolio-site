@@ -14,6 +14,7 @@ export default function Resume() {
       </div>
 
       <section>
+        <h2 className="pdf-title">Curriculum Vitae</h2>
         <div className="pdf-embed">
           <iframe src="/assets/Rafael_Chavez_CV.pdf" title="Rafael Chavez CV PDF"></iframe>
         </div>
