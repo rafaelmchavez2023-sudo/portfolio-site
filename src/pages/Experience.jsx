@@ -116,13 +116,13 @@ export default function Experience() {
                 <video controls playsInline preload="metadata" poster="/assets/robobby-fischer-demo-0212-poster.jpg">
                   <source src="/assets/robobby-fischer-demo-0212.mp4" type="video/mp4" />
                 </video>
-                <figcaption>3D-printed SCARA arm prototype</figcaption>
+                <figcaption>3D-printed SCARA arm prototype (2x speed)</figcaption>
               </figure>
               <figure>
                 <video controls playsInline preload="metadata" poster="/assets/robobby-fischer-demo-0213-poster.jpg">
                   <source src="/assets/robobby-fischer-demo-0213.mp4" type="video/mp4" />
                 </video>
-                <figcaption>STM32 control electronics bench test</figcaption>
+                <figcaption>STM32 control electronics bench test (2x speed)</figcaption>
               </figure>
             </div>
             <div className="tags"><span>Computer Vision</span><span>Arduino</span><span>Raspberry Pi</span><span>3D Printing</span><span>Stockfish API</span></div>
