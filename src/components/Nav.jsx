@@ -8,7 +8,7 @@ export default function Nav() {
         <nav className="links">
           <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
           <NavLink to="/experience" className={({ isActive }) => (isActive ? 'active' : '')}>Experience</NavLink>
-          <NavLink to="/resume" className={({ isActive }) => (isActive ? 'active' : '')}>Resume</NavLink>
+          <NavLink to="/resume" className={({ isActive }) => (isActive ? 'active' : '')}>Resume/CV</NavLink>
           <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</NavLink>
         </nav>
       </div>
