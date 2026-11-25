@@ -21,7 +21,7 @@ export default function Home() {
               stepDuration={0.3}
               className="hero-statement"
             />
-            <p className="currently">Currently an Autonomy and Controls Engineering Intern at Sea Machines Robotics and Project Leader and Research Assistant at GT's Institute for Robotics and Intelligent Machines.</p>
+            <p className="currently">Currently an Autonomy and Controls Engineering Intern at Sea Machines Robotics.</p>
           </div>
         </div>
 
