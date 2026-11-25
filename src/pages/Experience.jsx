@@ -103,6 +103,24 @@ export default function Experience() {
             </div>
             <div className="org-line">Autonomous Chess-Playing Robot Mechatronics Project (Personal Project)</div>
             <p>Designing and building a chess-playing robot arm entirely from scratch, including custom 3D-printed linkages, hand-selected motors, sensors, and microcontrollers (Arduino, Raspberry Pi), and a computer vision pipeline that reads the board and piece positions in real time. Move selection runs through a Stockfish API, translated into physical arm motion through a control stack built from the ground up.</p>
+            <div className="media">
+              <figure>
+                <img src="/assets/robobby-fischer-sketch.jpg" alt="Hand-drawn concept sketch of the SCARA chess robot with an electromagnet end effector" loading="lazy" />
+                <figcaption>Initial SCARA concept sketch</figcaption>
+              </figure>
+              <figure>
+                <video controls playsInline preload="metadata" poster="/assets/robobby-fischer-demo-0212-poster.jpg">
+                  <source src="/assets/robobby-fischer-demo-0212.mp4" type="video/mp4" />
+                </video>
+                <figcaption>3D-printed SCARA arm prototype</figcaption>
+              </figure>
+              <figure>
+                <video controls playsInline preload="metadata" poster="/assets/robobby-fischer-demo-0213-poster.jpg">
+                  <source src="/assets/robobby-fischer-demo-0213.mp4" type="video/mp4" />
+                </video>
+                <figcaption>STM32 control electronics bench test</figcaption>
+              </figure>
+            </div>
             <div className="tags"><span>Computer Vision</span><span>Arduino</span><span>Raspberry Pi</span><span>3D Printing</span><span>Stockfish API</span></div>
             <div className="links"><a href="https://github.com/rafaelmchavez2023-sudo/Chess_Playing_Robot" target="_blank" rel="noopener">View repository &amp; build log</a></div>
           </div>
