@@ -83,6 +83,9 @@ export default function Experience() {
       <div className="wrap">
         <section style={{ paddingTop: 24 }}>
           <p><strong>R. Chavez</strong>, &ldquo;Roboflow Detection Transformer for Manufacturing Defect Inspection with an application to Catheter Shaft Inspection,&rdquo; <em>IEOM 2026 World Congress</em>, Irvine, CA, Oct. 2026.<br /><strong>1st Place, Best Undergraduate Research Paper Award Track Sponsored by Siemens</strong></p>
+          <p><strong>Presidents Undergraduate Research Award 2026</strong>, Georgia Tech</p>
+          <p><strong>Woodruff College of Mechanical Engineering Undergraduate Research Award 2026</strong></p>
+          <p><strong>Georgia Tech Student Government Association Conference Research Award 2026</strong></p>
           <p><strong>Eagle Scout</strong>, Troop 1 Boxborough, Boy Scouts of America (May 2023)</p>
         </section>
       </div>
@@ -134,11 +137,11 @@ export default function Experience() {
 
           <div className="project">
             <div className="project-head">
-              <h3>Chairman, Judicial Board &amp; Membership Well-Being</h3>
-              <span className="when">Nov. 2025 &ndash; Present</span>
+              <h3>Vice President</h3>
+              <span className="when">Nov. 2025 &ndash; Nov. 2026</span>
             </div>
-            <div className="org-line">Sigma Phi Epsilon</div>
-            <p>Elected chairman of the judicial board and liaison to the executive board within the organization. Led over 25 disciplinary hearings on topics ranging from finances to academics and behavioral matters, increased operational efficiency of judicial proceedings by standardizing hearing procedures and documentation, and improved mental health and risk management resources to increase membership involvement and well-being.</p>
+            <div className="org-line">Sigma Phi Epsilon Fraternity</div>
+            <p>Oversaw membership well-being and risk management as executive board officer and chair of judicial board. Held members accountable to chapter bylaws and national standards of conduct with impartiality and confidentiality. Conducted disciplinary hearings on financial, academic, and behavioral matters. Reviewed event risk management and expanded mental health resources to protect member safety and well-being.</p>
           </div>
 
           <div className="project">
@@ -182,32 +185,33 @@ export default function Experience() {
               <h3>Member | RoboRacing | Georgia Tech Competitive Robotics Club</h3>
               <span className="when">Sept. 2026 &ndash; Present</span>
             </div>
+            <p>Member of Mechanical and Electrical subteams for Micromouse autonomous robot navigation challenge. Collaborated with multidisciplinary team to design, build, and operate robot under weight and budget constraints.</p>
           </div>
 
           <div className="project">
             <div className="project-head">
-              <h3>Member | SHPE</h3>
+              <h3>Member | Society of Hispanic Professional Engineers (SHPE)</h3>
               <span className="when">Aug. 2023 &ndash; Present</span>
             </div>
           </div>
 
           <div className="project">
             <div className="project-head">
-              <h3>Member | ASME</h3>
+              <h3>Member | American Society of Mechanical Engineers (ASME)</h3>
               <span className="when">Aug. 2023 &ndash; Present</span>
             </div>
           </div>
 
           <div className="project">
             <div className="project-head">
-              <h3>Member | IEOM</h3>
+              <h3>Member | Industrial Engineering and Operations Management Society (IEOM)</h3>
               <span className="when">June 2026 &ndash; Present</span>
             </div>
           </div>
 
           <div className="project">
             <div className="project-head">
-              <h3>Member | IEEE</h3>
+              <h3>Member | Institute of Electrical and Electronics Engineers (IEEE)</h3>
               <span className="when">Aug. 2023 &ndash; Present</span>
             </div>
           </div>
