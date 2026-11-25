@@ -106,7 +106,7 @@ export default function Experience() {
               <span className="when">Aug. 2026 &ndash; Present</span>
             </div>
             <div className="org-line">Autonomous Chess-Playing Robot Mechatronics Project (Personal Project)</div>
-            <p>Designing and building a chess-playing robot arm entirely from scratch, including custom 3D-printed linkages, hand-selected motors, sensors, and microcontrollers (Arduino, Raspberry Pi), and a computer vision pipeline that reads the board and piece positions in real time. Move selection runs through a Stockfish API, translated into physical arm motion through a control stack built from the ground up.</p>
+            <p>Designing and building a chess-playing robot arm entirely from scratch, including custom 3D-printed linkages, hand-selected motors, sensors, and an STM32 microcontroller, and a computer vision pipeline that reads the board and piece positions in real time. Move selection runs through a Stockfish API, translated into physical arm motion through a control stack built from the ground up.</p>
             <div className="media">
               <figure>
                 <img src="/assets/robobby-fischer-sketch.jpg" alt="Hand-drawn concept sketch of the SCARA chess robot with an electromagnet end effector" loading="lazy" />
@@ -125,7 +125,7 @@ export default function Experience() {
                 <figcaption>Robot Arm User Control Panel with LED state feedback (2x speed)</figcaption>
               </figure>
             </div>
-            <div className="tags"><span>Computer Vision</span><span>Arduino</span><span>Raspberry Pi</span><span>3D Printing</span><span>Stockfish API</span></div>
+            <div className="tags"><span>Computer Vision</span><span>STM32</span><span>3D Printing</span><span>Stockfish API</span></div>
             <div className="links"><a href="https://github.com/rafaelmchavez2023-sudo/Chess_Playing_Robot" target="_blank" rel="noopener">View repository &amp; build log</a></div>
           </div>
 
