@@ -3,7 +3,7 @@ export default function Resume() {
     <main className="wrap">
 
       <div className="hero" style={{ paddingBottom: 4 }}>
-        <h1 className="page-title">Resume/CV</h1>
+        <h1 className="page-title" style={{ textTransform: 'uppercase' }}>Resume/CV</h1>
         <p className="dek" style={{ maxWidth: '640px' }}>B.S. Mechanical Engineering, Georgia Institute of Technology<br /><span style={{ fontSize: '15px' }}>Minoring in Applications of Artificial Intelligence and Machine Learning.</span></p>
         <div className="resume-actions" style={{ justifyContent: 'center', marginTop: '54px' }}>
           <a className="btn" href="/assets/Rafael_Chavez_Resume.pdf" download>Download Resume PDF</a>
