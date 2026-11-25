@@ -14,7 +14,7 @@ export default function Home() {
           <div className="hero-text">
             <BlurText
               as="h1"
-              text="Mechanical Engineering Student at Georgia Tech, passionate about robotics, perception and control systems."
+              text="Mechanical Engineering Student at Georgia Tech, passionate about robotics, perception and control systems. Aspiring roboticist."
               animateBy="words"
               direction="top"
               delay={35}
