@@ -41,7 +41,7 @@ a:focus-visible, button:focus-visible {
 }
 
 .wrap {
-  max-width: 700px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 0 28px;
 }
@@ -55,7 +55,7 @@ header.site {
   z-index: 100;
 }
 .nav-row {
-  max-width: 700px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 22px 28px;
   display: flex;
@@ -251,8 +251,8 @@ p:last-child { margin-bottom: 0; }
 .media figcaption { margin-top: 6px; font-family: "IBM Plex Sans", sans-serif; font-size: 12.5px; color: var(--muted); }
 @media (max-width: 700px) { .media { grid-template-columns: 1fr; } }
 .project.side-right, .project.side-left { display: grid; gap: 24px; align-items: start; }
-.project.side-right { grid-template-columns: minmax(0, 1fr) 220px; }
-.project.side-left { grid-template-columns: 220px minmax(0, 1fr); }
+.project.side-right { grid-template-columns: minmax(0, 1fr) 260px; }
+.project.side-left { grid-template-columns: 260px minmax(0, 1fr); }
 .project.side-left .side-photo { order: -1; }
 .side-photo { margin: 0; }
 .side-photo img, .under-photo img { width: 100%; display: block; border: 1px solid var(--rule); border-radius: 3px; }
