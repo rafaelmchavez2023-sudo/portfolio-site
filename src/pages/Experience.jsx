@@ -15,7 +15,8 @@ export default function Experience() {
       <div className="wrap">
         <section style={{ paddingTop: 24 }}>
 
-          <div className="project">
+          <div className="project side-right">
+            <div className="project-text">
             <div className="project-head">
               <h3>Autonomy and Controls Engineering Intern</h3>
               <span className="when">May 2026 &ndash; Nov. 2026</span>
@@ -23,9 +24,12 @@ export default function Experience() {
             <div className="org-line">Sea Machines Robotics</div>
             <p>Testing and evaluating radar sensor hardware to ensure reliable performance for autonomous vessel deployments, and building a streamlined data ingestion application to support live mission data capture for downstream analysis. Developing a vessel-agnostic dynamic model parameter estimation tool that achieves sub-5% average accuracy in simulation, supporting collision avoidance, fuel optimization, and trajectory planning. Applying digital signal filtering to improve state estimation fidelity, and validating results against motion model simulations with injected Markov-Gauss sensor noise and physical wave disturbances.</p>
             <div className="tags"><span>Signal Filtering</span><span>Dynamic Modeling</span><span>Radar</span><span>Simulation</span></div>
+            </div>
+            <figure className="side-photo"><img src="/assets/sea-machines-harbor.jpg" alt="Vessel mast and boats on the water in a harbor, Sea Machines Robotics" loading="lazy" /></figure>
           </div>
 
-          <div className="project">
+          <div className="project side-left">
+            <div className="project-text">
             <div className="project-head">
               <h3>Process Engineering Intern</h3>
               <span className="when">May 2025 &ndash; Aug. 2025</span>
@@ -33,6 +37,8 @@ export default function Experience() {
             <div className="org-line">Amazon Robotics</div>
             <p>Developed a modular Shadow Board fabrication, infrastructure, and procurement system to promote 5S principles, building a tooling database of over 150 discrete tools and reducing requisite labor by 94%. Conducted cycle time studies and developed SOPs for material line replenishment and warehouse re-organization, cutting part delivery time 81%, increasing discrete materials delivered per cycle 18x, and reducing station headcount 60%. Drove an 85% increase in technician task efficiency through Pareto analysis, trained manufacturing technicians on best-practice SOPs, and identified bottlenecks via time cycle analysis to support labor and headcount rebalancing, cutting manufacturing downtime and reducing headcount by 22% through root cause analysis.</p>
             <div className="tags"><span>Process Engineering</span><span>SOP Writing</span><span>Six Sigma</span><span>5S</span></div>
+            </div>
+            <figure className="side-photo"><img src="/assets/amazon-robotics-spheres.jpg" alt="Rafael Chavez at The Spheres at Amazon headquarters" loading="lazy" /></figure>
           </div>
 
         </section>
@@ -52,6 +58,10 @@ export default function Experience() {
             <div className="org-line">Institute for Robotics and Intelligent Machines, Georgia Tech</div>
             <p>Leading a project deploying GPT-4o and OpenCV to detect, locate, and manipulate objects with UR5 and Rainbow robot arms, and training an RF-DETR detection model to improve end-effector relative object manipulation and orientation estimation. Built a $50,000 cost-saving machine vision part inspection prototype to compete in the TE Connectivity AI Cup. Research published in the IEOM 2026 World Congress in Irvine, California, earning 1st Place, Best Undergraduate Research Paper Award Track Sponsored by Siemens.</p>
             <div className="tags"><span>GPT-4o</span><span>OpenCV</span><span>RF-DETR</span><span>UR5</span><span>Project Management</span><span>Computer Vision</span><span>Model Training</span></div>
+            <figure className="award-photo">
+              <img src="/assets/ieom-2026-first-place-award.jpg" alt="Rafael Chavez receiving the First Place certificate in the Undergraduate Student Paper Competition sponsored by Siemens at the 2026 IEOM World Congress" loading="lazy" />
+              <figcaption>Receiving 1st Place in the Best Undergraduate Research Paper Award Track Sponsored by Siemens at the 2026 IEOM World Congress, Irvine, CA</figcaption>
+            </figure>
           </div>
 
           <div className="project">
@@ -62,6 +72,7 @@ export default function Experience() {
             <div className="org-line">Exoskeleton &amp; Prosthetic Intelligent Controls (EPIC) Lab, Georgia Tech</div>
             <p>Engineered electrical junction box hardware for a hip exoskeleton assistive device targeting stroke and cerebral palsy patient rehabilitation, as part of the Mechatronics and Hardware Development sub-team, analyzing biomechanics via VICON motion capture and simulation software to inform design decisions. Cut hardware housing fixture mass 55% and volume 32% while optimizing cable routing and component cooling, designing parts in SolidWorks and manufacturing them via 3D printing and pre-impregnated carbon fiber layering.</p>
             <div className="tags"><span>SolidWorks</span><span>Motion Capture</span><span>Carbon Fiber Manufacturing</span><span>3D Printing</span></div>
+            <figure className="under-photo"><img src="/assets/epic-lab-hardware.jpg" alt="Wearable electronics and junction box hardware for the hip exoskeleton on a workbench" loading="lazy" /></figure>
           </div>
 
           <div className="project">
@@ -83,10 +94,6 @@ export default function Experience() {
       <div className="wrap">
         <section style={{ paddingTop: 24 }}>
           <p><strong>R. Chavez</strong>, &ldquo;Roboflow Detection Transformer for Manufacturing Defect Inspection with an application to Catheter Shaft Inspection,&rdquo; <em>IEOM 2026 World Congress</em>, Irvine, CA, Oct. 2026.<br /><strong>1st Place, Best Undergraduate Research Paper Award Track Sponsored by Siemens</strong></p>
-          <figure className="award-photo">
-            <img src="/assets/ieom-2026-first-place-award.jpg" alt="Rafael Chavez receiving the First Place certificate in the Undergraduate Student Paper Competition sponsored by Siemens at the 2026 IEOM World Congress" loading="lazy" />
-            <figcaption>Receiving 1st Place in the Best Undergraduate Research Paper Award Track Sponsored by Siemens at the 2026 IEOM World Congress, Irvine, CA</figcaption>
-          </figure>
           <p><strong>Presidents Undergraduate Research Award 2026</strong>, Georgia Tech</p>
           <p><strong>Woodruff College of Mechanical Engineering Undergraduate Research Award 2026</strong></p>
           <p><strong>Georgia Tech Student Government Association Conference Research Award 2026</strong></p>

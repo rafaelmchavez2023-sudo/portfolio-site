@@ -250,6 +250,18 @@ p:last-child { margin-bottom: 0; }
 .media img { object-fit: contain; background: #fff; }
 .media figcaption { margin-top: 6px; font-family: "IBM Plex Sans", sans-serif; font-size: 12.5px; color: var(--muted); }
 @media (max-width: 700px) { .media { grid-template-columns: 1fr; } }
+.project.side-right, .project.side-left { display: grid; gap: 24px; align-items: start; }
+.project.side-right { grid-template-columns: minmax(0, 1fr) 220px; }
+.project.side-left { grid-template-columns: 220px minmax(0, 1fr); }
+.project.side-left .side-photo { order: -1; }
+.side-photo { margin: 0; }
+.side-photo img, .under-photo img { width: 100%; display: block; border: 1px solid var(--rule); border-radius: 3px; }
+.under-photo { margin: 18px 0 0; max-width: 560px; }
+@media (max-width: 720px) {
+  .project.side-right, .project.side-left { grid-template-columns: 1fr; }
+  .project.side-left .side-photo { order: 0; }
+  .side-photo { max-width: 320px; }
+}
 .project .links { margin-top: 12px; font-family: "IBM Plex Sans", sans-serif; font-size: 14px; }
 
 /* ---- Resume page ---- */
