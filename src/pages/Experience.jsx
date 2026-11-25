@@ -126,7 +126,6 @@ export default function Experience() {
               </figure>
             </div>
             <div className="tags"><span>Computer Vision</span><span>STM32</span><span>3D Printing</span><span>Stockfish API</span></div>
-            <div className="links"><a href="https://github.com/rafaelmchavez2023-sudo/Chess_Playing_Robot" target="_blank" rel="noopener">View repository &amp; build log</a></div>
           </div>
 
           <div className="project">
